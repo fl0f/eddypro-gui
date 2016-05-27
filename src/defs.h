@@ -276,7 +276,7 @@ namespace Defs
     const auto TIME_LAG_FILE_TEMPLATE = QStringLiteral("eddypro_sample_timelag_opt");
 
     // register configuration strings
-    const auto CONFGROUP_GENERAL      = QStringLiteral("/general");
+    const auto CONFGROUP_GENERAL      = QStringLiteral("/General");
     const auto CONF_GEN_LOOK_FEEL     = QStringLiteral("/lookfeel");
     const auto CONF_GEN_SHOW_SPLASH   = QStringLiteral("/showsplash");
     const auto CONF_GEN_LOADLAST      = QStringLiteral("/loadlast");
