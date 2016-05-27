@@ -63,6 +63,8 @@ AboutDialog::AboutDialog(QWidget* parent)
             .arg(Defs::WIN_COMPILER)
         #elif defined(Q_OS_MAC)
             .arg(Defs::MAC_COMPILER)
+        #elif defined(Q_OS_LINUX)
+            .arg(Defs::LINUX_COMPILER)
         #endif
         );
     auto icon = new QLabel;
