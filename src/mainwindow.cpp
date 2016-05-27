@@ -334,7 +334,7 @@ void MainWindow::initialize()
 void MainWindow::closeEvent(QCloseEvent *event)
 {
     DEBUG_FUNC_NAME
-
+    readSettings();
     writeSettings();
 
     // cancel the operation
